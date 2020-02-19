@@ -6,6 +6,7 @@ var exampleVideoData = [{
   etag: 'abQHWywil_AkNqdqji7_FqiK-u4/Ykxo_CqKu8F8kcm-iNgL332gQTY',
   id: {
     kind: 'youtube#video',
+    urlPortion: 'https://www.youtube.com/watch?v=',
     videoId: '4ZAEBxGipoA'
   },
   snippet: {

@@ -5,7 +5,7 @@ var VideoListEntry = (props) => (
 
     </div>
     <div className="media-body">
-      <div className="video-list-entry-title"></div>
+      <div className="video-list-entry-title">{props.videos[0].snippet.title}</div>
       <div className="video-list-entry-detail"></div>
     </div>
   </div>
