@@ -1,6 +1,6 @@
-import Search from './Search.jsx';
-import VideoList from './VideoList.jsx';
-import VideoPlayer from './VideoPlayer.jsx';
+import Search from './Search.js';
+import VideoList from './VideoList.js';
+import VideoPlayer from './VideoPlayer.js';
 
 
 

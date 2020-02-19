@@ -1,4 +1,4 @@
-import VideoListEntry from './VideoListEntry.jsx';
+import VideoListEntry from './VideoListEntry.js';
 var VideoList = () => {
 
   var videoArr = exampleVideoData.map(function(video) {
