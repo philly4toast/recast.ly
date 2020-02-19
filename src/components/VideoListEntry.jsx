@@ -1,11 +1,12 @@
 var VideoListEntry = (props) => (
   <div className="video-list-entry media">
     <div className="media-left media-middle">
-      <img className="media-object" src={this.props.info.thumbnails.default.url}alt={this.props.info.thumbnails.medium.url} />
+      <img className="media-object" src='' alt=''/>
+
     </div>
     <div className="media-body">
-      <div className="video-list-entry-title">{this.props.info.title}</div>
-      <div className="video-list-entry-detail">{this.props.info.description}</div>
+      <div className="video-list-entry-title"></div>
+      <div className="video-list-entry-detail"></div>
     </div>
   </div>
 );
