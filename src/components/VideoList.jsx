@@ -1,8 +1,9 @@
 import VideoListEntry from './VideoListEntry.js';
 
 var VideoList = (props) => {
-  var mappedList = props.videos.map(function(currentVideo) {
-    return <VideoListEntry video = {currentVideo}/>;
+  var mappedList = props.videos.map(function(currentVideo, index) {
+    return <VideoListEntry video = {currentVideo} selected = {props.clickFx} vidId={currentVideo.id.videoId} />;
+
   }
 
 
