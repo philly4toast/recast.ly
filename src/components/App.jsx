@@ -14,6 +14,7 @@ class App extends React.Component {
   }
 
   clickHandler(video) {
+    this.setState({info: video.video});
     console.log(video);
   }
 
