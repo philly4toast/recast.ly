@@ -12,6 +12,12 @@ class App extends React.Component {
       list: exampleVideoData
     };
   }
+
+  clickHandler(video) {
+    this.setState({info: video.video});
+    console.log(video);
+  }
+
   render() {
     return (
 
@@ -26,7 +32,11 @@ class App extends React.Component {
             <VideoPlayer video={this.state.info} />
           </div>
           <div className="col-md-5">
+<<<<<<< HEAD
             <VideoList videos={this.state.list}/>
+=======
+            <VideoList videos = {this.state.list} clickFx = {this.clickHandler.bind(this)}/>
+>>>>>>> 66d4f22f088259a024eab1698da3a61df5c96f6c
           </div>
         </div>
       </div>
